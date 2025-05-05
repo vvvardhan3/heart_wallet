@@ -63,7 +63,12 @@ export default function Home() {
         {/* Features Section */}
         <section id="features" className="bg-gray-50/50 rounded-lg p-6">
           <div className="container mx-auto text-center px-4 md:px-6 space-y-6">
-            <Badge variant={"outline"} className={"bg-blue-100/50 text-blue-400"}>Features</Badge>
+            <Badge
+              variant={"outline"}
+              className={"bg-blue-100/50 text-blue-400"}
+            >
+              Features
+            </Badge>
             <h2 className="gradient-title text-3xl md:text-5xl max-w-4xl mx-auto">
               Features that make splitting expenses easy
             </h2>
@@ -122,22 +127,22 @@ export default function Home() {
 
         {/* call to action */}
         <section className="py-20 gradient">
-        <div className="container mx-auto px-4 md:px-6 text-center space-y-6">
-          <h2 className="text-3xl font-extrabold tracking-tight md:text-4xl text-white">
-            Ready to simplify expense sharing?
-          </h2>
-          <p className="mx-auto max-w-[600px] text-white md:text-xl/relaxed">
-            Join thousands of users who have made splitting expenses
-            stress‑free.
-          </p>
-          <Button asChild size="lg" className="bg-blue-800 hover:opacity-80">
-            <Link href="/dashboard">
-              Get Started
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </Button>
-        </div>
-      </section>
+          <div className="container mx-auto px-4 md:px-6 text-center space-y-6">
+            <h2 className="text-3xl font-extrabold tracking-tight md:text-4xl text-white">
+              Ready to simplify expense sharing?
+            </h2>
+            <p className="mx-auto max-w-[600px] text-white md:text-xl/relaxed">
+              Join thousands of users who have made splitting expenses
+              stress‑free.
+            </p>
+            <Button asChild size="lg" className="bg-blue-800 hover:opacity-80">
+              <Link href="/dashboard">
+                Get Started
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
+        </section>
       </section>
     </div>
   );
