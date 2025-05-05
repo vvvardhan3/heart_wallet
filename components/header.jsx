@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
-      <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
+      <nav className="container max-w-7xl mx-auto h-16 flex items-center justify-between">
         <Link href="/" className="text-xl ">
           Heart & Wallet
         </Link>
