@@ -144,6 +144,9 @@ export default function Home() {
           </div>
         </section>
       </section>
+      <footer className="border-t bg-gray-50 py-4 text-center text-sm text-muted-foreground">
+        © {new Date().getFullYear()} Heart & Wallet. All rights reserved.
+      </footer>
     </div>
   );
 }
